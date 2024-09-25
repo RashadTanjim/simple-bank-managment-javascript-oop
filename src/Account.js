@@ -1,4 +1,5 @@
 class Account {
+
     constructor(accountHolder, accountNumber, pin, startingDeposit) {
         this.accountHolder = accountHolder;
         this.accountNumber = accountNumber;

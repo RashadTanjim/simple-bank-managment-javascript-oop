@@ -1,4 +1,5 @@
 class CommercialAccount extends Account {
+
     constructor(company, accountNumber, pin, startingDeposit) {
         super(company, accountNumber, pin, startingDeposit);
         this.authorizedUsers = []; // List of authorized Person objects

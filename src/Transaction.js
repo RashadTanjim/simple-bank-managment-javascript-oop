@@ -1,4 +1,5 @@
 class Transaction {
+
     constructor(bank, accountNumber, attemptedPin) {
         this.bank = bank;
         this.accountNumber = accountNumber;

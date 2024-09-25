@@ -1,4 +1,5 @@
 class Bank {
+
     constructor() {
         this.accounts = new Map(); // Account Number -> Account Object
     }

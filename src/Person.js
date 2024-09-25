@@ -8,14 +8,3 @@ class Person {
         return `${this.firstName} ${this.lastName}`;
     }
 }
-
-class Company {
-    constructor(companyName, taxId) {
-        this.companyName = companyName;
-        this.taxId = taxId;
-    }
-
-    getCompanyName() {
-        return this.companyName;
-    }
-}
